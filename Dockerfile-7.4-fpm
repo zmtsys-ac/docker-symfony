@@ -1,4 +1,4 @@
-FROM koalaphils/php:7.4-fpm
+FROM zimi/php:7.4-fpm
 
 #Install symfony cli
 RUN curl -sS https://get.symfony.com/cli/installer | bash
